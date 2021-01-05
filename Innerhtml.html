@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Demo</title>
+    <meta charset="utf-8"></meta>
+    <script defer src="myScript.js"></script>
+    <style>
+    #myDiv, button {
+      font-size: 150%;
+    }
+    input {
+      font-size: 125%;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="myDiv">
+      <p>
+        <label for='fname'>First Name:</label>
+        <input id='fname' name='fname' type='text' />
+        <br />
+        <label for='lname'>Last Name:</label>
+        <input id='lname' name='lname' type='text' />
+        <br />
+        <br />
+        <input type="checkbox" id="likeDog" name="likeDog">
+        <label for="dog">I like dogs</label><br>
+        <br />
+        <br />
+        <input type="checkbox" id="haveDog" name="haveDog">
+        <label for="dog">I have a dog</label><br>
+        <br />
+        <br />
+        <input type="radio" id="dogLover" name="dogLover">
+        <label for="male">Dog Lover</label><br>
+        <br />
+      </p>
+      <button onclick='myClick()'>Submit</button>
+    </div>
+  </body>
+</html>
